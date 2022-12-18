@@ -1,26 +1,33 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-  box-sizing: border-box;
-}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer base{
+
+  body{
+    @apply text-wht text-sm bg-darkBlue-intro font-OpenSans
   }
-  body {
-    color: white;
-    background: black;
+
+  h1,h2,h3,h4,h5,h6,header,nav{
+    @apply font-Raleway
   }
+
+  footer{
+    @apply bg-darkBlue-footer
+  }
+}
+
+.btn-cyan{
+  @apply px-6 py-4 text-wht font-bold rounded-full  bg-fyloBlue hover:bg-fyloCyan transition-all duration-200 ease-in-out
+}
+
+.header-navLinks {
+  @apply hover:underline underline-offset-4
+}
+
+.footer-links{
+  @apply hover:font-bold transition-all duration-200 ease-in-out
 }
