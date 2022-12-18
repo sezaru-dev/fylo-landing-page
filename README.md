@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/sezaru-dev/fylo-landing-page](https://github.com/sezaru-dev/fylo-landing-page)
-- Live Site URL: [https://fylo-landing-page-sezaru-dev.vercel.app/](https://fylo-landing-page-sezaru-dev.vercel.app/)
+- Live Site URL: [https://fylo-landing-page-cb.vercel.app/](https://fylo-landing-page-cb.vercel.app/)
 
 ## My process
 
